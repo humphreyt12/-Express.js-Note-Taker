@@ -4,15 +4,7 @@
 
 Modifed starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
-## User Story
-
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
-
-## Acceptance Criteria
+## Criteria
 
 ```
 GIVEN a note-taking application
@@ -29,3 +21,23 @@ THEN that note appears in the right-hand column and a "New Note" button appears 
 WHEN I click on the "New Note" button in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
 ```
+
+## Install
+
+Clone project. Run the following line of code in your terminal to install all the needed packages:
+
+npm i
+
+## Usage 
+
+Once all the packages have been installed, open terminal and run the following code in command line :
+
+node server.js
+
+## Lincense 
+
+Uses MIT License
+
+## Credits 
+
+References https://github.com/CaitlinSwickard for the routes code 

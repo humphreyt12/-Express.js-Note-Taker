@@ -1,6 +1,7 @@
 // Dependencies
 const express = require('express');
 
+
 // app use express
 const app = express();
 
@@ -10,6 +11,12 @@ const PORT = process.env.PORT || 3001;
 
 // asks express to create a route for every file in the 'public' folder and give it a '/' route
 app.use(express.static('public'));
+app.get(('*',function (req,res) {
+  res.sendfile('./public/index.html');
+  res.sendfile('./public/notes.html');
+  }))
+ 
+
 
 // sets up express app to handel data parser, middle wear created req.body
 app.use(express.urlencoded({ extended: true }));

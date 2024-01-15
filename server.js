@@ -24,8 +24,8 @@ app.use(express.json());
 
 
 // routes to route files
-require('./public/routes/api')(app);
-require('./public/routes/html')(app);
+require('./routes/api')(app);
+require('./routes/html')(app);
 
 
 // app listener - starts the server

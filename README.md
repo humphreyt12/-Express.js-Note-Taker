@@ -13,9 +13,9 @@
 
 Modifed starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
-<a href ="./public/assets/images/Note Taker Homepage.png" alt ="Note Taker Homepage">
+<a href ="./public/assets/images/NoteTakerHomepage.png" alt ="Note Taker Homepage">
 
-<a href="./public/assets/images/Note Take Notes Page.png" alt ="Note Taker Page">
+<a href="./public/assets/images/NoteTakeNotesPage.png" alt ="Note Taker Page">
 
 ## Website-Link
 https://humphrey-express-js-note-taker-cf04c585d4f9.herokuapp.com/
